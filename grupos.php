@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitalize</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" type="image/png" href="img/logov.png">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="header">
+
+        <div class="logo-box">
+            <img src="img/logov.png" alt="">
+        </div>
+
+        <div class="nav-bar">
+            <ul class="menu">
+                <li><a href="index.php">Início</a></li>
+                <li><a href="sobregrupos.php">Grupos</a></li>
+                <li><a href="doacao.php">Doação</a></li>
+                <li><a href="saude.php">Saúde</a></li>
+                <li><a href="relatos.php">Relatos</a></li>
+                <li><a href="sobre.php">Sobre</a></li>
+            </ul>
+
+            <a href="login.php" class="btnav">Entrar</a>
+             <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+    </nav>
+
+    <section class="grupos">
+
+        <img src="img/logov.png" class="logo-topo">
+
+        <h1 class="h1titulo">Cadastre-se em um grupo de apoio</h1>
+        <div class="linha"></div>
+
+        <div class="cardsgrupos">
+
+
+
+            <div class="cardgrupos">
+
+                <img src="img/apoio1.webp" alt="">
+
+                <div class="conteudocards">
+
+                    <span class="taggrupo">Mulheres em tratamento</span>
+
+                    <h3>Florescer Juntos</h3>
+
+                    <div class="infosgrupo">
+                        <span> 25/06/2026</span>
+                        <span> 19h00</span>
+                    </div>
+
+                    <p class="focogrupo">
+                        Mulheres com câncer de mama.
+                    </p>
+
+                    <div class="botoescards">
+                        <button class="cadastrogrupo">Cadastrar-se</button>
+                        <button class="infogrupos">Mais info</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="cardgrupos">
+
+                <img src="img/apoio2.jpg" alt="">
+
+                <div class="conteudocards">
+
+                    <span class="taggrupo">Pacientes em tratamento</span>
+
+                    <h3>Asas da Esperança</h3>
+
+                    <div class="infosgrupo">
+                        <span> 02/07/2026</span>
+                        <span> 20h00</span>
+                    </div>
+
+                    <p class="focogrupo">
+                        Pacientes oncológicos em geral.
+                    </p>
+
+                    <div class="botoescards">
+                        <button class="cadastrogrupo">Cadastrar-se</button>
+                        <button class="infogrupos">Mais info</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="cardgrupos">
+
+                <img src="img/apoio3.jpg" alt="">
+
+                <div class="conteudocards">
+
+                    <span class="taggrupo">18 a 25 anos</span>
+
+                    <h3>Jovens em Movimento</h3>
+
+                    <div class="infosgrupo">
+                        <span> 10/07/2026</span>
+                        <span> 18h00</span>
+                    </div>
+
+                    <p class="focogrupo">
+                        Jovens em tratamento oncológico.
+                    </p>
+
+                    <div class="botoescards">
+                        <button class="cadastrogrupo">Cadastrar-se</button>
+                        <button class="infogrupos">Mais info</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="cardgrupos">
+
+                <img src="img/apoio4.jpg" alt="">
+
+                <div class="conteudocards">
+
+                    <span class="taggrupo">Familiares e cuidadores</span>
+
+                    <h3>Fortes em Família</h3>
+
+                    <div class="infosgrupo">
+                        <span> 28/06/2026</span>
+                        <span> 10h00</span>
+                    </div>
+
+                    <p class="focogrupo">
+                        Apoio para quem acompanha pacientes.
+                    </p>
+
+                    <div class="botoescards">
+                        <button class="cadastrogrupo">Cadastrar-se</button>
+                        <button class="infogrupos">Mais info</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="cardgrupos">
+
+                <img src="img/apoio5.jpg" alt="">
+
+                <div class="conteudocards">
+
+                    <span class="taggrupo">Pós-tratamento</span>
+
+                    <h3>Nova Jornada</h3>
+
+                    <div class="infosgrupo">
+                        <span> 29/06/2026</span>
+                        <span> 16h00</span>
+                    </div>
+
+                    <p class="focogrupo">
+                        Pacientes em remissão e recuperação.
+                    </p>
+
+                    <div class="botoescards">
+                        <button class="cadastrogrupo">Cadastrar-se</button>
+                        <button class="infogrupos">Mais info</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="cardgrupos">
+
+                <img src="img/apoio6.jpg" alt="">
+
+                <div class="conteudocards">
+
+                    <span class="taggrupo">Acima de 60 anos</span>
+
+                    <h3>Experiência e Vida</h3>
+
+                    <div class="infosgrupo">
+                        <span> 24/06/2026</span>
+                        <span> 15h00</span>
+                    </div>
+
+                    <p class="focogrupo">
+                        Grupo voltado para pacientes idosos.
+                    </p>
+
+                    <div class="botoescards">
+                        <button class="grupoencerrado">Encerrado</button>
+                        <button class="infogrupos">Mais info</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+        </div>
+
+    </section>
+
+    <footer class="footer">
+
+        <div class="footer-redes">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+
+        <div class="footer-logo">
+            <img src="img/logobrancacomp.png">
+        </div>
+
+        <div class="footer-info">
+            <p>© 2026 Vitalize — Apoio ao tratamento contra o câncer</p>
+            <p>Todos os direitos reservados | CNPJ 00.000.000/0001-00</p>
+            <p>SAC 0800 000 0000</p>
+        </div>
+
+    </footer>
+
+    <div class="modal" id="modalInfo">
+
+        <div class="modal-conteudo">
+
+            <div class="modal-topo">
+                <button class="fechar-modal">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+
+                <h2>Mais Informações</h2>
+            </div>
+
+            <div class="modal-corpo">
+                <h2 class="h2titulo">Jovens em Movimento</h2>
+                <h3>Foco: Jovens em tratamento oncológico </h3>
+
+                <div class="modal-dados">
+                    <span>18h – Horário de Brasília</span>
+                    <span>10/07/2026</span>
+                </div>
+
+                <p class="modal-texto">
+                    Os Grupos de Apoio Online são gratuitos e destinados a pessoas em tratamento contra o câncer, além
+                    de familiares, amigos e cuidadores.
+                </p>
+
+                <ul>
+                    <li>Os encontros oferecem um espaço de acolhimento, escuta e apoio emocional.</li>
+                    <li>Para participar basta realizar sua inscrição gratuitamente.</li>
+                    <li>O link de acesso será enviado para o e-mail cadastrado.</li>
+                    <li>Caso não encontre o e-mail, verifique também as pastas de spam ou lixo eletrônico.</li>
+                    <li>As inscrições serão encerradas quando a data limite for atingida.</li>
+                    <li>Em caso de dúvidas, entre em contato pelo e-mail: suporte@vitalize.com.br</li>
+                </ul>
+
+                <h4>
+                    Esperamos você para juntos construirmos uma rede de apoio, cuidado e esperança!
+                </h4>
+
+                <img src="img/logov.png" alt="">
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+
+        const modal = document.getElementById("modalInfo");
+
+        document.querySelectorAll(".infogrupos").forEach(botao => {
+
+            botao.addEventListener("click", () => {
+                modal.classList.add("ativo");
+            });
+
+        });
+
+        document.querySelector(".fechar-modal").addEventListener("click", () => {
+            modal.classList.remove("ativo");
+        });
+
+        modal.addEventListener("click", (e) => {
+
+            if (e.target === modal) {
+                modal.classList.remove("ativo");
+            }
+
+        });
+
+    </script>
+    <script>
+        const toggle = document.querySelector(".menu-toggle");
+        const menu = document.querySelector(".menu");
+
+        toggle.addEventListener("click", () => {
+            menu.classList.toggle("ativo");
+        });
+    </script>
+
+</body>
+
+</html>
